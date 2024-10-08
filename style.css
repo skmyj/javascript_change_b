@@ -17,6 +17,12 @@
     --color-text: #fff;
 }
 
+:root[data-theme="color-d"] {
+    --color-main: rgb(160, 222, 60);
+    --color-sub: rgb(230, 255, 120);
+    --color-text: #000000;
+}
+
 body {
     background-color: var(--color-main);
     color: var(--color-text);
@@ -47,4 +53,9 @@ button {
 #btn-c {
     background-color: navy;
     color: #fff;
+}
+
+#btn-d {
+    background-color:rgb(160, 222, 60) ;
+    color: #000000;
 }
